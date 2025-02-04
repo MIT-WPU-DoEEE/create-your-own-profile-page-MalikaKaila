@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malika Kaila - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Previous CSS styles remain the same */
+        /* Add these new styles for additional sections */
+
+        .project-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .project-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .project-details {
+            padding: 1.5rem;
+        }
+
+        .tech-stack {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin: 1rem 0;
+        }
+
+        .tech-tag {
+            background: var(--primary-color);
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+        }
+
+        .contact-section {
+            background: var(--dark-color);
+            color: white;
+            padding: 5rem 0;
+        }
+
+        /* Previous CSS styles... */
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container nav-content">
+            <div class="logo">MK</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Malika Kaila</h1>
+                <p>Aspiring Data Analyst & Tech Enthusiast</p>
+                <a href="#contact" class="cta-btn">Let's Collaborate</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+                <p>I am an aspiring Data Analyst and Management Professional with a strong passion for data-driven decision-making, problem-solving, and technology-driven innovations. My expertise lies in data analysis, visualization, and business strategy, and I thrive on transforming raw data into actionable insights.
+
+With a keen interest in machine learning, AI, and automation, I enjoy exploring how emerging technologies can optimize business operations and enhance strategic decision-making. I am proficient in Python, SQL, Excel, and visualization tools like Tableau/Power BI, and I continuously seek opportunities to expand my analytical and leadership skills.
+
+I am eager to contribute to data-driven projects, collaborate with like-minded professionals, and apply my knowledge to real-world challenges. Let’s connect and explore how data can shape the future of businesses! 🚀
+
+</p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>5+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>100%</h3>
+                        <p>Passion for data analysis</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>10k+</h3>
+                        <p>Data points analysed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <!-- [Include previously provided skills section here] -->
+  <!-- Skills Section -->
+<section id="skills" class="section">
+    <div class="container">
+        <div class="section-title">
+            <h2>Skills</h2>
+        </div>
+        <div class="skills-grid">
+            <!-- Skill 1 -->
+            <div class="skill-item">
+                <div class="skill-icon">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <h3>HTML5</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 95%;"></div>
+                </div>
+            </div>
+
+            <!-- Skill 2 -->
+            <div class="skill-item">
+                <div class="skill-icon">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <h3>CSS3</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+
+            <!-- Skill 3 -->
+            <div class="skill-item">
+                <div class="skill-icon">
+                    <i class="fab fa-js"></i>
+                </div>
+                <h3>Python</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+
+            <!-- Skill 4 -->
+            <div class="skill-item">
+                <div class="skill-icon">
+                    <i class="fab fa-react"></i>
+                </div>
+                <h3>SQL</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 88%;"></div>
+                </div>
+            </div>
+
+            <!-- Skill 5 -->
+            <div class="skill-item">
+                <div class="skill-icon">
+                    <i class="fab fa-node"></i>
+                </div>
+                <h3>Power Bi</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+
+            <!-- Skill 6 -->
+            <div class="skill-item">
+                <div class="skill-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h3>Excel</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Projects Section -->
+    <!-- Projects Section -->
+<section id="projects" class="section">
+    <div class="container">
+        <div class="section-title">
+            <h2>Featured Projects</h2>
+        </div>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <!img src="project1.jpg" alt="Sales Performance Analysis" class="project-image">
+                <div class="project-details">
+                    <h3>Sales Performance Analysis</h3>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Excel</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Power Bi and SQL</span>
+                    </div>
+                    <p>Analyzed sales data to identify trends, best-selling products, and seasonal variations using time-series analysis.</p>
+                    <a href="#" class="cta-btn">View Project</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <!img src="project2.jpg" alt="Heart Rate & Temperature Monitoring System" class="project-image">
+                <div class="project-details">
+                    <h3>Heart Rate & Temperature Monitoring System</h3>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Pulse Sensor</span>
+                        <span class="tech-tag">LM35 Temperature Sensor</span>
+                        <span class="tech-tag">Arduino Uno</span>
+                        <span class="tech-tag">LCD Display</span>
+                        <span class="tech-tag">5V Relay Module</span>
+                        <span class="tech-tag">Buzzer and LED</span>
+                    </div>
+                    <p>A heart rate and temperature monitoring system using Arduino that measures and displays real-time pulse and body temperature using sensors like Pulse Sensor & LM35, providing instant health insights.</p>
+                    <a href="#" class="cta-btn">View Project</a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <!img src="project3.jpg" alt="Heart Disease Prediction" class="project-image">
+                <div class="project-details">
+                    <h3>Heart Disease Prediction</h3>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">KNN Algorithm</span>
+                        
+                    </div>
+                    <p>A heart disease prediction system that uses machine learning to analyze patient data and predict the risk of heart disease based on key health indicators.</p>
+                    <a href="#" class="cta-btn">View Project</a>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card">
+                <!img src="project4.jpg" alt="Credit Card Approval Prediction" class="project-image">
+                <div class="project-details">
+                    <h3>Credit Card Approval Prediction</h3>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">Binary Classification</span>
+                        <span class="tech-tag">Logistic Regression</span>
+                    </div>
+                    <p>Created an ML model to predict the using binary classification in logistic regression are to enhance the credit
+approval process through the application of machine learning techniques.</p>
+                    <a href="#" class="cta-btn">View Project</a>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card">
+                <!img src="project5.jpg" alt="Sentiment Analysis" class="project-image">
+                <div class="project-details">
+                    <h3>Sentiment Analysis using Product Reviews</h3>
+                    <div class="tech-stack">
+                        <span class="tech-tag">NLP-NLTK,SpaCy,TextBlob</span>
+                        <span class="tech-tag">VADER</span>
+                        <span class="tech-tag">Pandas</span>
+                    </div>
+                    <p>A sentiment analysis system that uses NLP and machine learning to classify product reviews as positive, negative, or neutral, providing insights into customer opinions.</p>
+                    <a href="#" class="cta-btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="cta-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer style="background: #1a252f; color: white; text-align: center; padding: 2rem;">
+        <p>&copy; 2023 Malika Kaila. All rights reserved</p>
+        <div class="social-links" style="margin-top: 1rem;">
+            <a href="#" style="color: white; margin: 0 1rem;"><i class="fab fa-github"></i></a>
+            <a href="#" style="color: white; margin: 0 1rem;"><i class="fab fa-linkedin"></i></a>
+            <a href="#" style="color: white; margin: 0 1rem;"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
